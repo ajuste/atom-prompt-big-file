@@ -7,3 +7,13 @@ Then this package is for you; prompt-big-file will prompt you to open files
 that are big.
 
 ![A screenshot of your package](https://github.com/ajuste/atom-prompt-big-file/blob/master/img/readme.png)
+
+# Install
+
+```shell
+apm install prompt-big-file
+```
+
+# Changelog
+
+See CHANGELOG.md.
