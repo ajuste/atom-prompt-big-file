@@ -1,0 +1,21 @@
+{
+  "name": "prompt-big-file",
+  "main": "./lib/prompt-big-file",
+  "version": "0.0.0",
+  "description": "Avoid opening big files by accident which might cause Atom to stop responding",
+  "keywords": [
+    "big",
+    "file",
+    "hang",
+    "responding",
+    "prompt",
+    "freeze"
+  ],
+  "repository": "git@github.com:ajuste/atom-prompt-big-file.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
