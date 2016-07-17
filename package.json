@@ -1,7 +1,7 @@
 {
   "name": "prompt-big-file",
   "main": "./lib/prompt-big-file",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Avoid opening big files by accident which might cause Atom to stop responding",
   "keywords": [
     "big",
@@ -11,11 +11,21 @@
     "prompt",
     "freeze"
   ],
-  "repository": "git@github.com:ajuste/atom-prompt-big-file.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ajuste/atom-prompt-big-file.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/ajuste/atom-prompt-big-file/issues"
+  },
+  "homepage": "https://github.com/ajuste/atom-prompt-big-file#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvaro Juste <juste.alvaro@gmail.com>"
 }
