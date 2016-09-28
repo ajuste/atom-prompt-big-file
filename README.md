@@ -6,7 +6,7 @@ responding?
 Then this package is for you; prompt-big-file will prompt you to open files
 that are big.
 
-![A screenshot of your package](https://github.com/ajuste/atom-prompt-big-file/blob/master/img/readme.png)
+![A screenshot of your package](https://raw.githubusercontent.com/ajuste/atom-prompt-big-file/master/img/readme.png)
 
 # Install
 
