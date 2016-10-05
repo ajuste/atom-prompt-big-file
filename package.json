@@ -1,7 +1,7 @@
 {
   "name": "prompt-big-file",
   "main": "./lib/prompt-big-file",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Avoid opening big files by accident which might cause Atom to stop responding",
   "keywords": [
     "big",
