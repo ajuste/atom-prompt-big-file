@@ -2,4 +2,7 @@
 * Prompt user to open a file when size >= 256kb
 
 ## 0.1.1 - Documentation
-* Added correct url reference for screenshot in doc
+* Add correct url reference for screenshot in doc
+
+## 0.1.2 - Warning threshold
+* Add support to configure warning threshold 
