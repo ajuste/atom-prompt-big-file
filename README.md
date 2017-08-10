@@ -14,6 +14,21 @@ that are big.
 apm install prompt-big-file
 ```
 
+# Configuration
+
+You can configure
+the minimum size
+of the file
+which triggers a warn
+by overriding the following
+key in configuration:
+
+```
+prompt-big-file.Threshold
+```
+
+By default this is 1Mb.
+
 # Changelog
 
 See CHANGELOG.md.
