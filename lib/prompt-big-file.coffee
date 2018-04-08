@@ -9,10 +9,11 @@ module.exports =
   activate: (state) ->
 
     @subscription = atom.workspace.observeTextEditors (item) ->
-      if item.getText().length // (1024 * 1024) >= atom.config.get('prompt-big-file.Threshold')
+      filesize = item.getText().length // (1024 * 1024)
+      if filesize >= atom.config.get('prompt-big-file.Threshold')
         atom.confirm
-          message: 'Warning'
-          detailedMessage: 'The file you are opening could cause Atom to stop responding.'
+          message: "Warning: Larger than #{atom.config.get('prompt-big-file.Threshold')}Mb"
+          detailedMessage: "The file you are opening is #{filesize}Mb which is larger than {atom.config.get('prompt-big-file.Threshold')}Mb, this could cause Atom to stop responding."
           buttons:
             Continue: ->
             Abort: -> item.destroy()
